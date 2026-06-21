@@ -1,0 +1,16 @@
+{
+    "name": "devops/laravel-health-check",
+    "description": "Lightweight health check and monitoring for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "health", "monitoring", "check"],
+    "autoload": {
+        "psr-4": {
+            "DevOps\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0|^12.0"
+    }
+}
