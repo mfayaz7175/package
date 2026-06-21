@@ -1,5 +1,5 @@
 {
-    "name": "laravel-package/health-check",
+    "name": "mfayaz7175/health-check",
     "description": "Lightweight health check and monitoring for Laravel applications",
     "type": "library",
     "license": "MIT",
