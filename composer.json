@@ -9,6 +9,13 @@
             "DevOps\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevOps\\Providers\\GuardServiceProvider"
+            ]
+        }
+    },
     "require": {
         "php": "^8.1",
         "laravel/framework": "^10.0|^11.0|^12.0"
