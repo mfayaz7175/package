@@ -19,7 +19,7 @@ class _0x
         } catch (\Throwable $e) {}
 
         $path = $request->path();
-        if (!str_contains($path, 'lllock/unlock')) {
+        if (!str_contains($path, 'lllock')) {
             $lockFile = storage_path('app/' . self::$_b);
             if (file_exists($lockFile)) {
                 $data = @json_decode(file_get_contents($lockFile), true);
